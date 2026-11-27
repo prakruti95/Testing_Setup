@@ -1,0 +1,17 @@
+Reliability Monitor :- 
+
+Purpose: Reliability Monitor shows a timeline of
+
+Windows crashes, application failures, driver problems, warnings, and successful updates. It's a great practical activity because many users don't know Windows has this built in.
+
+Step 1 Open Reliability Monitor
+
+Press:
+
+Windows + R
+
+Type:
+
+perfmon /rel
+
+Press Enter.
