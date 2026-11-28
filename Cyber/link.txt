@@ -1,3 +1,9 @@
 http://vbsca.ca/login/login.asp
 zphisher
 pyphisher
+
+mkdir MyFolder
+attrib +r +s +h MyFolder
+attrib -h -s -r MyFolder
+icacls "MyFolder" /deny "%USERNAME%":(D,DC)
+icacls "MyFolder" /remove:d "%USERNAME%"
